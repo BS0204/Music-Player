@@ -1,0 +1,109 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.pexels.com/photos/416920/pexels-photo-416920.jpeg?cs=srgb&dl=pexels-pixabay-416920.jpg&fm=jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+    }
+
+    .overlay {
+      background-color: none;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .music-player {
+      background-color: #f0f0f0;
+      padding: 80px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      margin-top: 20px;
+    }
+
+    .cover img {
+      border-radius: 12px;
+    }
+
+    .details h2 {
+      margin: 10px 0 5px 0;
+      font-size: 1.2em;
+    }
+
+    .time-info {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .song {
+      margin: 10px 0;
+    }
+
+    .progress-bar {
+      width: 100%;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .controls button {
+      font-size: 1.2em;
+      padding: 8px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+    .song-list {
+      margin-top: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 10px;
+      max-width: 300px;
+      text-align: left;
+      display: none;
+      border-radius: 10px;
+    }
+
+    .song-list ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .song-list li {
+      padding: 5px 10px;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .song-list li:hover {
+      background-color: #e0e0e0;
+    }
+
+    .song-list li.favorite {
+      background-color: #FFD700;
+    }
+
+    .favorite.active {
+      color: red;
+    }
+
+    .favorite {
+      font-size: 1.3em;
+    }
+
+    .star {
+      color: gold;
+      margin-left: 8px;
+    }
